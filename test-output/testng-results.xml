@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-12T14:40:45 EET" name="Default suite" finished-at="2020-09-12T14:41:03 EET" duration-ms="18277">
+    <groups>
+      <group name="Firefox">
+        <method signature="NewTest.tesNgSearch()[pri:0, instance:AutomationTasks.NewTest@436a4e4b]" name="tesNgSearch" class="AutomationTasks.NewTest"/>
+      </group> <!-- Firefox -->
+    </groups>
+    <test started-at="2020-09-12T14:40:45 EET" name="Default test" finished-at="2020-09-12T14:41:03 EET" duration-ms="18277">
+      <class name="AutomationTasks.NewTest">
+        <test-method is-config="true" signature="setProperty()[pri:0, instance:AutomationTasks.NewTest@436a4e4b]" started-at="2020-09-12T14:40:45 EET" name="setProperty" finished-at="2020-09-12T14:40:45 EET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method is-config="true" signature="firefoxSetup()[pri:0, instance:AutomationTasks.NewTest@436a4e4b]" started-at="2020-09-12T14:40:45 EET" name="firefoxSetup" finished-at="2020-09-12T14:40:51 EET" duration-ms="6507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefoxSetup -->
+        <test-method signature="tesNgSearch()[pri:0, instance:AutomationTasks.NewTest@436a4e4b]" started-at="2020-09-12T14:40:51 EET" name="tesNgSearch" finished-at="2020-09-12T14:40:59 EET" duration-ms="7709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesNgSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationTasks.NewTest@436a4e4b]" started-at="2020-09-12T14:40:59 EET" name="closeBrowser" finished-at="2020-09-12T14:41:03 EET" duration-ms="3994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AutomationTasks.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
